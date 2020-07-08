@@ -1,4 +1,4 @@
-package com.idtus.sreid.threadpools;
+package com.seanreid.threadpools;
 
 import com.google.common.base.Preconditions;
 import java.util.Collection;
@@ -22,7 +22,7 @@ import org.apache.commons.lang3.mutable.MutableObject;
  * A {@link ScheduledExecutorService} that guarantees that a given task will
  * be started within one cycle of the management thread period.
  */
-public class ResponsiveScheduledThreadPool implements ScheduledExecutorService {
+public final class ResponsiveScheduledThreadPool implements ScheduledExecutorService {
 
   /**
    * The thread that manages the work queue.

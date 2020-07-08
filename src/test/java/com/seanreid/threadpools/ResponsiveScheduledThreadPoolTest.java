@@ -1,4 +1,4 @@
-package com.idtus.sreid.threadpools;
+package com.seanreid.threadpools;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
