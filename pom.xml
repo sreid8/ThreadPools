@@ -12,7 +12,7 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
 
-    <version.guava>28.0-jre</version.guava>
+    <version.guava>29.0-jre</version.guava>
     <version.lang3>3.10</version.lang3>
     <version.junit-jupiter>5.5.2</version.junit-jupiter>
   </properties>
